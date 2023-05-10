@@ -192,7 +192,7 @@ header{
     justify-content: center;
     flex-direction: column;
     position: relative;
-    bottom: 55px;
+    bottom: 60px;
     color: #fff;
 }
 
@@ -202,7 +202,7 @@ header{
     justify-content: center;
     flex-direction: column;
     position: relative;
-    bottom: 50px;
+    bottom: 52px;
     color: #fff;
 }
 
@@ -212,12 +212,12 @@ header{
     justify-content: center;
     flex-direction: column;
     position: relative;
-    bottom: 85px;
+    bottom: 91px;
     color: #fff;
 }
 
 .loja-img1{
-    height: 134px;
+    height: 135px;
     position: relative;
     left: 5px;
     bottom: 13px;
