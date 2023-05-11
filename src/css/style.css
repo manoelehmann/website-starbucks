@@ -455,3 +455,42 @@ header{
 .sobre-lorem{
     width: 400px;
 }
+
+.sobre-btn{
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    position: relative;
+    top: 25px;
+}
+
+.sobre-btn:hover{
+    color: var(--segunda-cor);
+    background-color: #fff;
+}
+
+.img-footer{
+    height: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-regra{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 60px;
+    font-size: 15px;
+    gap: 30px;
+    color: var(--segunda-cor);
+    font-weight: 500;
+}
