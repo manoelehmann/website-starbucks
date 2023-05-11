@@ -316,7 +316,6 @@ header{
 .uber-img{
     height: 300px;
     border-radius: 10px;
-    
 }
 
 .uber-main{
@@ -351,4 +350,108 @@ header{
     background-color: var(--segunda-cor);
     color: #fff;
     font-weight: 600;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.app-span{
+    font-size: 14px;
+    color: var(--segunda-cor);
+    font-weight: 600;
+}
+
+.app-h3{
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+.app-img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.app-img-text{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-lorem{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.app-text{
+    margin-right: 50px;
+}
+
+.app-p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.app-btn{
+    border: 2px solid var(--segunda-cor);
+    border-radius: 50px;
+    color: var(--segunda-cor);
+    padding: 10px;
+    font-weight: 600;
+    position: relative;
+    top: 25px;
+}
+
+.app-btn:hover{
+    background-color: var(--segunda-cor);
+    color: #fff;
+    font-weight: 600;
+}
+
+.sobre{
+    background-color: var(--main-color);
+    margin-top: 30px;
+}
+
+.sobre-img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.sobre-img-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 350px;
+    color: #fff;
+}
+
+.sobre-text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sobre-text-margin{
+    margin-left: 40px;
+}
+
+.sobre-lorem{
+    width: 400px;
 }
