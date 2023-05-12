@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    width: 100%;
+}
+
 :root{
     --main-color: #008148;
     --segunda-cor: #1e3932;
