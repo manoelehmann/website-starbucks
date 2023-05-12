@@ -507,7 +507,6 @@ footer{
     
     .nav{
         font-size: 13px;
-        display: none;
     }
 
     .sobre-img-text{
@@ -598,6 +597,15 @@ footer{
 }
 
 @media screen and (max-width: 533px){
+
+    body{
+        width: 100%;
+    }
+
+    .header{
+        position: relative;
+        left: 10px;
+    }
     .home{
         width: 100%;
         align-items: center;
@@ -613,11 +621,31 @@ footer{
     .app-text{
         align-items: center;
         justify-content: center;
-        margin-left: 100px;
+        margin-left: 50px;
+    }
+
+    .app-lorem{
+        width: 300px;
     }
 
     .sobre{
-        width: 550px;
+        width: 430px;
+    }
+
+    .uber-main{
+        width: 400px;
+    }
+
+    .sobre-text-margin{
+        width: 400px;
+    }
+
+    .uber-text-p{
+        width: 300px;
+    }
+
+    .uber-text{
+        width: 400px;
     }
 
     .app{
