@@ -70,7 +70,7 @@ header{
 }
 
 .home{
-    width: 100%;
+    min-width: 100%;
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -123,6 +123,7 @@ header{
 }
 
 .loja{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -500,23 +501,71 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-
-    .sobre{
+    .header{
         width: 100%;
     }
     
+    .nav li a{
+        font-size: 13px;
+    }
+
+    .sobre-img-text{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app-img-text{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre{
+        height: 450px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .sobre-img{
+        height: 200px;
+    }
+
+    .uber-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home{
+        width: 100%;
+        min-height:500px;
+    }
+
+    .home-text{
+        height: 100%;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .nav{
+        margin-right: 200px;
+    }
+    .lojas{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
     .home-img{
         height: 1px;
         width: 1px;
     }
-    
-}
-
-@media  screen and (max-width: 991px) {
-
-    .home-img{
-        height: 1px;
-        width: 1px;
-    }
-    
 }
