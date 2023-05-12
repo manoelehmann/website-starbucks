@@ -500,14 +500,23 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+
+    .sobre{
+        width: 100%;
+    }
+    
+    .home-img{
+        height: 1px;
+        width: 1px;
+    }
     
 }
 
-.sobre{
-    width: 100%;
-}
+@media  screen and (max-width: 991px) {
 
-.home-img{
-    height: 1px;
-    width: 1px;
+    .home-img{
+        height: 1px;
+        width: 1px;
+    }
+    
 }
