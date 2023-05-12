@@ -569,3 +569,58 @@ footer{
         width: 1px;
     }
 }
+
+@media screen and (max-width: 618px){
+
+    .header{
+        position: fixed;
+    }
+    .nav{
+        display: none;
+    }
+
+    #menu-icon{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        right: 30px;
+    }
+
+    .app-img{
+        height: 200px;
+
+    }
+
+    .uber-img{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 533px){
+    .home{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        min-height: 300px;
+    }
+
+    .home-text{
+        margin-right: 200px;
+        margin-top: 100px;
+    }
+
+    .app-text{
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+    }
+
+    .sobre{
+        width: 550px;
+    }
+
+    .app{
+        align-items: center;
+        justify-content: center;
+    }
+}
