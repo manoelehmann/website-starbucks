@@ -505,8 +505,9 @@ footer{
         width: 100%;
     }
     
-    .nav li a{
+    .nav{
         font-size: 13px;
+        display: none;
     }
 
     .sobre-img-text{
